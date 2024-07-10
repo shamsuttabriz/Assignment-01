@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Common Styles */
+.heading-primary {
+  color: #0d1321;
+}
+.heading-secondary {
+  color: #0d1321b3;
+}
+
+.primary-color {
+  color: #0d1321;
+}
+
+.bg-primary {
+  background-color: #0d132105;
+}
+
+/* Hero Styles*/
+.heading {
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 26px 0 45px 0;
+}
+.hero-section {
+  width: 1020px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero-section h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  margin: 32px 0 24px;
+}
+.hero-section p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  margin-bottom: 32px;
+}
+.hero-btn button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  background-color: #0d1321;
+  border: none;
+  border-radius: 8px;
+  padding: 21px 24px;
+}
