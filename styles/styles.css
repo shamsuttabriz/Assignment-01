@@ -248,3 +248,71 @@
 .target-courses .js {
   background: rgba(255, 223, 0, 0.05);
 }
+
+/* Support Styles */
+.support {
+  margin: 55px 0 40px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 64px 48px;
+  border-radius: 16px;
+}
+.support h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.support p {
+  width: 850px;
+  margin: 16px auto 40px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.feedback {
+  text-align: center;
+}
+.feedback input:first-child {
+  padding: 19px 20px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  width: 548px;
+}
+.feedback input:first-child:focus {
+  outline: none;
+}
+.feedback input:first-child[placeholder] {
+  color: rgba(13, 19, 33, 0.2);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+}
+.feedback input:last-child {
+  width: 120px;
+  padding: 17px 20px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+}
