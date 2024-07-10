@@ -166,7 +166,7 @@
   text-align: center;
 }
 .inspiration p {
-  width: 750px;
+  width: 850px;
   margin: 24px auto 48px;
   font-size: 16px;
   font-weight: 400;
@@ -182,4 +182,69 @@
 .inspiration-video iframe {
   width: 100%;
   height: 550px;
+}
+
+/* Current Target Styles */
+.target {
+  margin: 75px 0 55px;
+}
+.target-content h2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.target-content p {
+  width: 850px;
+  margin: 24px auto 48px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.target-courses {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.frontend {
+  width: 380px;
+  padding: 40px;
+  text-align: left;
+  border-radius: 16px;
+}
+.frontend h3 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  margin: 24px 8px;
+}
+.frontend p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  margin-bottom: 24px;
+}
+.frontend div a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+
+.target-courses .html {
+  background: rgba(255, 76, 30, 0.05);
+}
+.target-courses .css {
+  background: rgba(0, 76, 232, 0.05);
+}
+.target-courses .js {
+  background: rgba(255, 223, 0, 0.05);
 }
