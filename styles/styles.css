@@ -120,7 +120,7 @@
   );
 }
 .coding-content {
-  width: 560px;
+  width: 480px;
   text-align: left;
 }
 .coding-content h3 {
@@ -315,4 +315,29 @@
   text-align: center;
   border: 0;
   cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+  background: rgba(13, 19, 33, 0.03);
+  margin-top: 40px;
+  padding: 32px 150px;
+}
+.footer-content {
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-content h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+}
+.list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
 }
